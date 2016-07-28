@@ -11,7 +11,6 @@ from nltk.corpus.reader.util import *
 from nltk.corpus.reader.api import *
 
 print(sys.platform)
- 
 
 '''Choose source file'''
 
@@ -35,8 +34,7 @@ with open('Tom_kevin_convo_2.txt',encoding="utf-8-sig") as f:
 	''' tokenize'''
 	''' map chars to words'''
 
-
-	''' map words to clauses + author '''
+	''' map words to clauses + source '''
 	
 	''' deal with duplicate two-char words'''
 
